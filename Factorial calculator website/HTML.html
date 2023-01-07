@@ -1,0 +1,88 @@
+<HTML>
+    <head>
+    <TITLE>FACTORIAL CALCULATOR</TITLE>
+    <Link rel="icon" type="image/jpg" href="icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="fun.js"></script>
+    <body>
+       <h1>WELCOME TO THE PAGE</h1>
+       <div>
+        <ul type="none" class="s3">
+        <li><p id="ct"></p></li>
+        <li><p id="cd"></p></li>
+        </ul>
+       <h2>Calculate factorial of a number</h2>
+       <label>Enter a number : </label>
+       <input type="number" placeholder="Enter number" id="num">
+       <br><br>
+       <button onclick="factorial()" class="s1">Calculate</button>
+       <br><br>
+       <label>Factorial of a number : </label>
+       <input type="text" id="demo" placeholder="RESULT" name="RESULT"/>
+        </div>
+        <div class="s2">
+        <h4>HOW TO FIND FACTORIALS</h4>
+        <ul>
+        <li>Multiple the numbers from 1 to n.Here n refers to given integer.</li>
+        <li>The factorial calculation is in the form of 1*2*...*n.</li>
+        <li>Basics of factorial (1 to 10) need to be remember useful for calculating large numbers.</li>
+        <table>
+            <th>Number(n)</th>
+            <th>Factorial(n!)</th>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>24</td>
+            </tr>
+            
+            <tr>
+                <td>5</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>720</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>5040</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>40320</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>362880</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>3628800</td>
+            </tr>
+        </table>
+       </ul>
+        </div>
+        </div>
+        <script>
+        let time=document.getElementById("ct");
+        let date=document.getElementById("cd");
+    setInterval(()=>{
+        let d=new Date();
+        time.innerHTML=d.toLocaleTimeString();
+    },1000)
+    let d=new Date();
+    date.innerHTML=d.toDateString();
+        </script>
+    </body>
+</HTML>

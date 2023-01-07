@@ -1,0 +1,44 @@
+h1{
+    color: yellowgreen;
+    text-align:center;
+    }
+    body{
+        background-color:black;
+    }
+    h2{
+        font-size: 25px;
+        background-color:blueviolet;
+        text-align: center;
+    }
+    div{
+        background-color: aliceblue;
+        width:50%;
+        margin: auto;
+        border:3px;
+        padding:10px;
+        text-align:center;
+    }
+    .s1{
+        background-color:lightgreen;
+        font-size: medium;
+    }
+    table,th,td{
+        border: 1px solid black;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .s2{
+        text-align: justify;
+    }
+    p,label{
+        font-weight: bolder;
+    }
+    .s3{
+        font-size:larger;
+        color: black;
+        display:flex;
+        text-indent: 140px;
+        background-color:blue;
+    }
+    
